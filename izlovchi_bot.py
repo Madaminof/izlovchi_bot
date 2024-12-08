@@ -45,7 +45,7 @@ async def get_kino(message: types.Message):
             )
 
         else:
-            await message.answer("Bunday kino kodi topilmadi. ❌")
+            await message.answer("Bunday kino kodi topilmadi.")
     except Exception as e:
         await message.answer(f"Xatolik yuz berdi: {e}")
 
